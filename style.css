@@ -1,6 +1,46 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
-h1{
+
+h1 {
+    font-size: 50px;
+}
+
+.span-h1 {
+    color: steelblue;
+}
+
+.top-section {
+    display: flex;
+    background-image: url(images/top\ image.jpg);
+    background-repeat: no-repeat;
+}
+
+.middle-section {
+    display: flex;
+    background-image: url(images/right\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.portfolio-div {
+    width: 50%;
+    padding-left: 12%;
+    padding-top: 4%;
+}
+
+.portfolio-div img {
+    width: 100%;
+}
+
+.button {
+    background-image: linear-gradient(rgb(89, 89, 231), royalblue);
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 40px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: black;
 
 }
