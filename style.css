@@ -7,40 +7,90 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .span-h1 {
     color: steelblue;
 }
 
 .top-section {
     display: flex;
-    background-image: url(images/top\ image.jpg);
+    background-image: url(images/top-header.jpg);
     background-repeat: no-repeat;
 }
 
 .middle-section {
     display: flex;
-    background-image: url(images/right\ image.jpg);
+    background-image: url(images/middle-left.jpg);
     background-repeat: no-repeat;
     background-position: right;
+
+}
+
+.experience-section {
+    background-image: url(images/last-right.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 8%;
+    padding-right: 5%;
+
 }
 
 .portfolio-div {
     width: 50%;
-    padding-left: 12%;
-    padding-top: 4%;
+    padding-left: 7%;
+    padding-right: 6%;
 }
+
 
 .portfolio-div img {
     width: 100%;
+}
+
+.experiences-div {
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.experience-div1 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-left: 7px solid slateblue;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px slategray;
+
+
+}
+
+.experience-div2 {
+    width: 40%;
+    margin-right: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-left: 7px solid rgb(12, 128, 50);
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px slategray;
+
+
 }
 
 .button {
     background-image: linear-gradient(rgb(89, 89, 231), royalblue);
     text-decoration: none;
     font-weight: 700;
-    margin-top: 40px;
     padding: 10px 40px;
     border-radius: 5px;
     color: black;
+}
 
+.experience-sub-headline {
+    color: steelblue;
+}
+
+footer {
+    text-align: center;
 }
